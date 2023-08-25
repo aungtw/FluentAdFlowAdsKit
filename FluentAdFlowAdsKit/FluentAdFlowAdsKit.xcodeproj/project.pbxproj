@@ -13,7 +13,7 @@
 		E1F2728B2A98347100B19CE5 /* FluentAdFlowAdsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F2727D2A98347000B19CE5 /* FluentAdFlowAdsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1F272952A9834D000B19CE5 /* FluentAdFlowAdsKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F272942A9834D000B19CE5 /* FluentAdFlowAdsKit.swift */; };
 		E1F272972A98352300B19CE5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F272962A98352300B19CE5 /* WebView.swift */; };
-		E1F272992A98358F00B19CE5 /* FLuentAdsKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F272982A98358F00B19CE5 /* FLuentAdsKitView.swift */; };
+		E1F272992A98358F00B19CE5 /* FluentAdFlowAdsKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F272982A98358F00B19CE5 /* FluentAdFlowAdsKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,7 @@
 		E1F272892A98347100B19CE5 /* FluentAdFlowAdsKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentAdFlowAdsKitTests.swift; sourceTree = "<group>"; };
 		E1F272942A9834D000B19CE5 /* FluentAdFlowAdsKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentAdFlowAdsKit.swift; sourceTree = "<group>"; };
 		E1F272962A98352300B19CE5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		E1F272982A98358F00B19CE5 /* FLuentAdsKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLuentAdsKitView.swift; sourceTree = "<group>"; };
+		E1F272982A98358F00B19CE5 /* FluentAdFlowAdsKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentAdFlowAdsKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				E1F272942A9834D000B19CE5 /* FluentAdFlowAdsKit.swift */,
 				E1F2727D2A98347000B19CE5 /* FluentAdFlowAdsKit.h */,
 				E1F272962A98352300B19CE5 /* WebView.swift */,
-				E1F272982A98358F00B19CE5 /* FLuentAdsKitView.swift */,
+				E1F272982A98358F00B19CE5 /* FluentAdFlowAdsKitView.swift */,
 				E1F2727E2A98347000B19CE5 /* FluentAdFlowAdsKit.docc */,
 			);
 			path = FluentAdFlowAdsKit;
@@ -205,7 +205,7 @@
 			files = (
 				E1F272972A98352300B19CE5 /* WebView.swift in Sources */,
 				E1F272952A9834D000B19CE5 /* FluentAdFlowAdsKit.swift in Sources */,
-				E1F272992A98358F00B19CE5 /* FLuentAdsKitView.swift in Sources */,
+				E1F272992A98358F00B19CE5 /* FluentAdFlowAdsKitView.swift in Sources */,
 				E1F2727F2A98347000B19CE5 /* FluentAdFlowAdsKit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

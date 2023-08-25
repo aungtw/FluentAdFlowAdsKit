@@ -18,8 +18,8 @@ public struct WebView: UIViewRepresentable {
     var zip: String = ""
     var loadStatusChanged: ((Bool, Error?) -> Void)? = nil
     
-    public func makeUIView(context: Context) -> FluentAdsKitView {
-        let view = FluentAdsKitView()
+    public func makeUIView(context: Context) -> FluentAdFlowAdsKitView {
+        let view = FluentAdFlowAdsKitView()
         view.email = email
         view.firstName = firstName
         view.lastName = lastName
@@ -30,7 +30,7 @@ public struct WebView: UIViewRepresentable {
         return view
     }
     
-    public func updateUIView(_ webView: FluentAdsKitView, context: Context) {
+    public func updateUIView(_ webView: FluentAdFlowAdsKitView, context: Context) {
         // you can access environment via context.environment here
         // Note that this method will be called A LOT
     }

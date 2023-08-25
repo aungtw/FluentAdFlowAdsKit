@@ -13,8 +13,8 @@ public protocol FluentAdFlowAdsKitProtocol {
     init()
     func load(email: String, firstName: String, lastName: String, orderId: String,
               transactionValue: String, zip: String) -> WebView
-    func getFluentAdsKitView(email: String, firstName: String, lastName: String, orderId: String,
-              transactionValue: String, zip: String) -> FluentAdsKitView
+//    func getFluentAdsKitView(email: String, firstName: String, lastName: String, orderId: String,
+//              transactionValue: String, zip: String) -> FluentAdsKitView
 }
 
 public class FluentAdFlowAdsKit: FluentAdFlowAdsKitProtocol {
@@ -27,16 +27,16 @@ public class FluentAdFlowAdsKit: FluentAdFlowAdsKitProtocol {
         return WebView(email: email, firstName: firstName, lastName: lastName, orderId: orderId, transactionValue: transactionValue, zip: zip)
     }
     
-    public func getFluentAdsKitView(email: String, firstName: String, lastName: String, orderId: String, transactionValue: String, zip: String) -> FluentAdsKitView {
-        let view = FluentAdsKitView()
-        view.email = email
-        view.firstName = firstName
-        view.lastName = lastName
-        view.orderId = orderId
-        view.transactionValue = transactionValue
-        view.zip = zip
-        view.updateView([])
-        
-        return view
-    }
+//    public func getFluentAdsKitView(email: String, firstName: String, lastName: String, orderId: String, transactionValue: String, zip: String) -> FluentAdsKitView {
+//        let view = FluentAdsKitView()
+//        view.email = email
+//        view.firstName = firstName
+//        view.lastName = lastName
+//        view.orderId = orderId
+//        view.transactionValue = transactionValue
+//        view.zip = zip
+//        view.updateView([])
+//        
+//        return view
+//    }
 }
