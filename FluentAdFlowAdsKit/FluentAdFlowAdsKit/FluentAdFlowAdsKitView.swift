@@ -17,7 +17,7 @@ public protocol FluentAdFlowAdsKitViewProtocol {
 //              transactionValue: String, zip: String) -> FluentAdsKitView
 }
 
-public class FluentAdFlowAdsKitView : UIView, WKNavigationDelegate, FluentAdFlowAdsKitViewProtocol {
+open class FluentAdFlowAdsKitView : UIView, WKNavigationDelegate, FluentAdFlowAdsKitViewProtocol {
     @objc public var email: String = ""
     @objc public var firstName: String = ""
     @objc public var lastName: String = ""
