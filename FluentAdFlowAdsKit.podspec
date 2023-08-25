@@ -22,6 +22,6 @@ s.license          =  { :type => 'Apache License, Version 2.0', :text => <<-LICE
 s.author           = { 'awongfluentco' => 'awong@fluentco.com' } 
 s.source           = { :git => 'https://github.com/aungtw/FluentAdFlowAdsKit.git', :tag => s.version.to_s } 
 s.ios.deployment_target = '13.0'
-s.source_files = 'FluentAdFlowAdsKit/*' 
+s.source_files = 'FluentAdFlowAdsKit/FluentAdFlowAdsKit/*' 
 s.swift_versions = '5.8'
 end
