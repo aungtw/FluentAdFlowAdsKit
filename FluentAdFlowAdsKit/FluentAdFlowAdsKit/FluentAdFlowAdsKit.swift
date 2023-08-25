@@ -35,7 +35,7 @@ public class FluentAdFlowAdsKit: FluentAdFlowAdsKitProtocol {
         view.orderId = orderId
         view.transactionValue = transactionValue
         view.zip = zip
-        view.didSetProps([])
+        view.updateView([])
         
         return view
     }

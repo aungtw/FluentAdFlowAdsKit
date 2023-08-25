@@ -57,7 +57,7 @@ public class FluentAdsKitView : UIView, WKNavigationDelegate {
         self.addSubview(webView)
     }
     
-    public func didSetProps(_ changedProps: [String]!) {
+    public func updateView(_ changedProps: [String]!) {
         var request = URLRequest(url: URL(string:getUrl())!)
         request.setValue(referer, forHTTPHeaderField: HEADER_REFERER)
         webView.load(request)
